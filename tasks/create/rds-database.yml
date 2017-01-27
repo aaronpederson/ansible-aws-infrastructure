@@ -7,7 +7,6 @@
     region: "{{ region }}"
     subnets: "{{ vpc.subnets | selectattr('resource_tags.Role', 'equalto', system_role) | map(attribute='id') | list }}"
 
-
 - name: Create Database Servers
   rds:
 
