@@ -1,9 +1,11 @@
 ---
 galaxy_info:
-  author: "Chris Olstrom"
-  company: "TELUS digital"
-  description: "aws-infrastructure builds out things according to seemingly arbitrary conventions. They probably make sense, in the appropriate context."
+  author: 'Chris Olstrom'
+  company: 'TELUS digital'
+  description: 'aws-infrastructure builds out things according to seemingly arbitrary conventions. They probably make sense, in the appropriate context.'
+  issue_tracker_url: 'https://github.com/telusdigital/ansible-aws-infrastructure/issues'
   license: MIT
+  min_ansible_version: 1.9
   categories:
     - cloud
   platforms:
@@ -13,3 +15,4 @@ galaxy_info:
         - precise
         - trusty
         - utopic
+        - vivid
